@@ -1,6 +1,6 @@
 1. for building docker images fromm docker-compose file and starting services 
 	docker-compose up -d
-	 -d is for  runnig in demon mode4
+	 -d is for  runnig in demon mode
 
 2. for stoping docker-compose services
 	docker-compose stop
