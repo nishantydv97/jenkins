@@ -1,0 +1,15 @@
+1. for building docker images fromm docker-compose file and starting services 
+	docker-compose up -d
+	 -d is for  runnig in demon mode4
+
+2. for stoping docker-compose services
+	docker-compose stop
+
+3. for sratring docker-compose  services 
+	docker-compose start
+
+4. for restarting docker-compose  services
+	docker-compose  restart <service name>
+
+5. for  comleating deleting docker-commpose services(volume will  not be feleted from local volume)
+	docker-compose down
