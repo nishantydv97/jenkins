@@ -1,0 +1,24 @@
+Started by user [8mha:////4F5Aq96qecQeUIamLNmftRrwvrsJGjT2i5FvELkKpF9XAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mjenkins-admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins8424337944543402758.sh
++ echo Hello world
+Hello world
++ whoami
++ echo user is jenkins
+user is jenkins
++ date
++ echo date is Sun Sep 22 08:16:07 UTC 2019
+date is Sun Sep 22 08:16:07 UTC 2019
++ id
++ echo user id is  is uid=1000(jenkins) gid=1000(jenkins) groups=1000(jenkins)
+user id is  is uid=1000(jenkins) gid=1000(jenkins) groups=1000(jenkins)
++ NAME=Nishant
++ date
++ echo hello . Nishant current date and time is  is Sun Sep 22 08:16:07 UTC 2019
++ FIRST=Nishant
++ SECOND=Kumar
++ chmod 777 ./tmp/script.sh
+chmod: cannot access './tmp/script.sh': No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
