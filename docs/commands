@@ -13,3 +13,9 @@
 
 5. for  comleating deleting docker-commpose services(volume will  not be feleted from local volume)
 	docker-compose down
+
+6. to get into the container bash
+	docker exec -ti <container id> bash
+
+7. for copying a file from current dir to docker container 
+	docker cp <script name> <container name>:/<path>/<script name>
