@@ -18,6 +18,21 @@
           <defaultValue>Kumar</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>LAST_NAME</name>
+          <description></description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>Yadav</string>
+              <string>Rai</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>CHECK</name>
+          <description></description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -30,7 +45,9 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;hello $FIRST_NAME $SECOND_NAME&quot;</command>
+      <command>echo &quot;hello $FIRST_NAME $SECOND_NAME $LAST_NAME&quot;
+
+/tmp/script.sh $FIRST_NAME $LAST_NAME $CHECK</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

@@ -19,3 +19,6 @@
 
 7. for copying a file from current dir to docker container 
 	docker cp <script name> <container name>:/<path>/<script name>
+
+8. for creating ssh-keygen
+	ssh-keygen -f <filename>
