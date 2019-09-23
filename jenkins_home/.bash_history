@@ -116,3 +116,34 @@ chown jenkins:jenkins remote-key
 rm remote-key 
 ls -l
 exit
+ls
+ssh remote_host@remote_host
+ssh remote_user@remote_host
+ls
+cd tmp/
+ls
+exit
+ssh remote_user@remote_host
+uname -a
+exit
+ping 8.8.8.8
+ping remote_user
+ping remote_host
+exit
+ls
+cd tmp/
+ls
+cat remote-key 
+ll
+ls -a
+ls -l
+exit
+su root
+exit
+ls
+cd tmp/
+ll
+ls -l
+ssh remote_user@remote_host
+ssh -i remote-key  remote_user@remote_host
+exit
