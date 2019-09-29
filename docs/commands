@@ -22,3 +22,11 @@
 
 8. for creating ssh-keygen
 	ssh-keygen -f <filename>
+
+9. creating mysqldump from remote_mysql container machine to local
+	mysqldump -u root -h db_host -p testdb > /tmp/db.sql
+
+10. command to uploading any file to aws s3 bucket  using aws cli is
+	export AWS_ACCESS_KEY=""
+	export AWS_SECRET_ACCESS_KEY=""
+	aws s3 /path/data.ext s3://<bucket name>/data.ext
