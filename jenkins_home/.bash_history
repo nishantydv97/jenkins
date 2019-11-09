@@ -147,3 +147,154 @@ ls -l
 ssh remote_user@remote_host
 ssh -i remote-key  remote_user@remote_host
 exit
+id
+hostname
+whoami
+exit
+ansible
+ll
+ls
+pwd
+su
+sudo su
+su root
+exit
+ls
+cd HOME
+cd $HOME
+ls
+ls
+cd
+ls
+cd /
+ls
+cd home/
+ls
+ls
+pwd
+hostname
+whoami
+exit
+ls
+cd
+ls
+cd jobs/
+ls
+cd ...
+cd ..
+ls
+ll -art
+ls
+ls ansible/remote-key 
+ls ansible/remote-key -l
+cd ansible/
+ls
+pwd
+exit
+ssh remote_user@remote_host
+ssh remote_user@remote_host
+cd .s
+ls
+cd
+cd .ssh/
+ls
+vi id_rsa.pub 
+cat id_rsa.pub 
+hostname
+username
+whoami
+ssh jenkins@4a4fd52477db
+ls
+cd
+ls
+cd ansible/
+ls
+vi host 
+cat host 
+history
+ansible -i -m ping test1
+ls
+ansible -i -m ping test1
+ls
+ansible -i host -m ping test1
+ls
+cat remote-key 
+sudo cat remote-key 
+ll -art
+ls -lart
+id
+chown 1000:1000 remote-key 
+exit
+ls
+cd
+cd ansible/
+ls
+pwd
+exit
+id
+ls
+cd
+cd ansible/
+ls
+cat remote-key 
+la
+ansible -i host -m ping test1
+is
+id
+ll -lart
+ls -lart
+ls
+cat remote-key 
+ls
+cd
+ls
+ssh-keygen
+cd .ssh/
+ls
+cat id_rsa.pub 
+ssh remote_user@remote_host
+ls -lart
+chmod 777 .
+ls -lart
+chmod -r 777 .
+chmod -R 777 .
+ls -lart
+ssh remote_user@remote_host
+ls
+cd
+cd ansible/
+ls
+cat host 
+ansible -i hosts -m ping test1
+ansible -i host -m ping test1
+ls
+cat host 
+ssh remote_user@remote_host
+ls
+ssh-keygen -t rsa
+ssh-keygen -t rsa
+ls
+ls -a
+ls -l
+ls -art
+ls -lart
+date
+cdl
+cd
+ls
+cd
+cd .ssh/
+ls
+ls -art
+ls -lart
+date
+cd
+ls
+ssh remote_user@remote_host mkdir -p .ssh
+ssh remote_user@remote_host
+ls
+cd .ssh/
+ls
+vi id_rsa.pub 
+cat id_rsa.pub 
+ssh remote_user@remote_host
